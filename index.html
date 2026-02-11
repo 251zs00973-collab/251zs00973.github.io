@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>奥川・民話の記憶アーカイブ</title>
+</head>
+<body>
+    <header>
+        <h1>奥川・民話の記憶</h1>
+        <p>〜福島県西会津町、語り継がれる地域の宝〜</p>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="main-visual">
+                <img src="landscape.jpg" alt="西会津の風景" id="main-img">
+            </div>
+        </section>
+
+        <section id="stories">
+            <h2>新着の民話</h2>
+            <article class="story-card">
+                <h3>山の神と不思議な声</h3>
+                <p>昔々、奥川の山奥には...</p>
+                <a href="#">続きを読む</a>
+            </article>
+        </section>
+
+        <section id="tool">
+            <h2>地域交流ツール：一言掲示板</h2>
+            <input type="text" id="board-input" placeholder="今の気持ちを教えてください">
+            <button onclick="postMessage()">投稿する</button>
+            <ul id="message-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 地域の未来をつくるプロジェクト</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
