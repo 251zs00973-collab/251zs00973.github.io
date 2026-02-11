@@ -1,0 +1,33 @@
+:root {
+    --main-green: #2d5a27; /* 豊かな森の色 */
+    --accent-orange: #e67e22; /* 温かい灯火の色 */
+    --bg-cream: #fdfaf1; /* 古紙のような温かみのある白 */
+}
+
+body {
+    background-color: var(--bg-cream);
+    font-family: "Sawarabi Mincho", serif; /* 和風なフォント */
+    margin: 0;
+    line-height: 1.8;
+}
+
+header {
+    background-color: var(--main-green);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.story-card {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-left: 5px solid var(--accent-orange);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+
+#tool {
+    background: #eee;
+    padding: 2rem;
+    margin-top: 2rem;
+}
